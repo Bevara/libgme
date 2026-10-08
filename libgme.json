@@ -16,5 +16,6 @@
       "spc" : "audio",
       "vgm" : "audio"
     },
-    "licence_required":false
+    "licence_required":false,
+    "using": ["solver_1"]
 }
