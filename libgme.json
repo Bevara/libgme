@@ -1,5 +1,6 @@
 {
     "name": "libgme",
+    "version": "1.0.1",
     "description": "Chiptune decoder (NSF, GBS, SPC, VGM, ...)",
     "filters":["gmedec"],
     "help": "This filter renders video game music files (NSF, GBS, SPC, VGM, AY, GYM, HES, KSS, SAP) to PCM by emulating the original sound hardware, using game-music-emu.",
