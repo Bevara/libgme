@@ -16,6 +16,10 @@
       "spc" : "audio",
       "vgm" : "audio"
     },
-    "licence_required":false,
-    "using": ["solver_1"]
+    "using": ["solver_1"],
+    "patents": {
+        "status": "royalty-free",
+        "note": "game console music",
+        "checked": "2026-10-16"
+    }
 }
