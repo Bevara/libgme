@@ -2,22 +2,30 @@
     "name": "libgme",
     "version": "1.0.2",
     "description": "Chiptune decoder (NSF, GBS, SPC, VGM, ...)",
-    "filters":["gmedec"],
+    "filters": [
+        "gmedec"
+    ],
     "help": "This filter renders video game music files (NSF, GBS, SPC, VGM, AY, GYM, HES, KSS, SAP) to PCM by emulating the original sound hardware, using game-music-emu.",
     "support": [
         "audio"
     ],
-    "sources":"https://bevara.ddns.net/sources/libgme.accessor",
-    "filter_source":{
-        "gmedec" : "dec_gme.c"
+    "sources": "https://bevara.ddns.net/sources/libgme.accessor",
+    "filter_source": {
+        "gmedec": "dec_gme.c"
     },
-    "extension":{
-      "nsf" : "audio",
-      "gbs" : "audio",
-      "spc" : "audio",
-      "vgm" : "audio"
+    "extension": {
+        "nsf": "audio",
+        "gbs": "audio",
+        "spc": "audio",
+        "vgm": "audio"
     },
-    "using": ["mm_solver_1.0.1", "mm_solver_1.0.2", "mm_solver_1.0.3", "mm_solver_1.0.4"],
+    "using": [
+        "mm_solver_1.0.1",
+        "mm_solver_1.0.2",
+        "mm_solver_1.0.3",
+        "mm_solver_1.0.4",
+        "mm_solver_1.0.5"
+    ],
     "patents": {
         "status": "royalty-free",
         "note": "game console music",
